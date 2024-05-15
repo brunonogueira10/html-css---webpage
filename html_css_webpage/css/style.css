@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(/pictures/fundo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+
+@font-face {
+    font-family: beatlesfont;
+    src: url(/Fonts/beatles.ttf);
+}
+
+ul {
+    list-style: none;
+    background-image: linear-gradient(to right, #22438C, #0641d4);
+}
+
+ul li {
+    display: inline-block;
+    position: relative;
+}
+
+ul li a {
+    display: block;
+    color: #FFF;
+    text-align: center;
+    padding: 25px 35px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+ul li ul.dropdown li {
+    display: block;
+}
+
+ul li ul.dropdown {
+    width: 100%;
+    background: #22438C;
+    position: absolute;
+    z-index: 999;
+    display: none;
+
+}
+
+ul li a:hover {
+    background: #112C66;
+}
+
+ul li:hover ul.dropdown {
+    display: block;
+}
+
+#icon {
+    position: absolute;
+    right: 0%;
+}
+
+h1 {
+    font-family: beatlesfont;
+    font-size: 70px;
+    color: black;
+    padding: 25px;
+    margin: 10px;
+}
+
+section {
+    text-align: center;
+}
+
+.paragrafo1 {
+    color: #22438C;
+    font-size: 16px;
+    font-family: beatlesfont;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.paragrafo2 {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-style: solid;
+    border-width: 8px;
+    border-color: #22438C;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+h2,
+h4 {
+    padding: 14px;
+    margin: 16px;
+    font-size: 50px;
+    font-family: beatlesfont;
+    color: #22438C;
+}
+
+img {
+    width: 200px;
+    height: auto;
+}
+
+div.galeria {
+    margin: 35px;
+    float: left;
+    width: 180px;
+}
+
+div.descricao {
+    padding: 1px;
+    text-align: left;
+    font-family: beatlesfont;
+}
+
+div.container {
+    display: flex;
+    justify-content: center;
+}
+
+div.section_contact {
+    border: 5px solid #22438C;
+    border-radius: 280px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serifs;
+    color: #22438C;
+    text-align: center;
+}
+
+
+h3 {
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+footer .icon_footer {
+    padding: 1px;
+    margin: 1px;
+    font-size: 50px;
+    color: #FFF;
+}
+
+a {
+    text-decoration: none
+}
